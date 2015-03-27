@@ -1,0 +1,33 @@
+<html lang="en" ng-app="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Instant Test Website">
+    <meta name="author" content="Abdul-Raheem Addy">
+    <title>Web Client | Instant Test</title>
+    
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+
+
+  <body ng-controller="MainController">
+    <script src="lib/js/jquery-1.10.2.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/js/messaging.js"></script>
+    <script src="lib/js/angular.js"></script>
+    <script src="lib/js/angular-route.js"></script>
+    <script type="text/javascript" src="quiz/app.js"></script>
+    <script type="text/javascript" src="quiz/test.js"></script>
+    
+    <div class="container">    
+       <div ng-view></div>
+    </div>
+      <!-- Site footer -->
+     <footer>
+       <p><small>a production of Abdul-Raheem Addy</small></p>
+     </footer>
+    </div>
+  </body>
+</html>
