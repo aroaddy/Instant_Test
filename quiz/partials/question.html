@@ -1,0 +1,31 @@
+<header class="jumbotron">
+	<hgroup>
+	  <h2>Subject: {{test.properties.subject}}</h2>
+
+	  <!-- <abbr title="rolling on the floor, laughing out loud">That joke had me ROTFLOL</abbr> -->
+	  <!-- <h3>&nbsp;</h3> -->
+
+	  <h4>Instruction: {{test.properties.instruction}}</h4>
+	  <h3 id="timer">Duration: </h3>
+
+	  <p>
+	  	<a class="btn btn-primary btn-md pull-right" href="http://it.addybs.com/client.html" role="button"> &laquo; Test Menu</a>
+	  </p>
+
+		<div class="btn-group">
+	    	<button id="init" type="button" class="btn btn-default" ng-click="start()">Start Test</button>
+	    	<!-- <button type="button" class="btn btn-default" onclick="click1('2')">Message</button> -->
+	    	<button id="eval" type="button" class="btn btn-default" ng-click="mark()">Mark</button>
+		</div>
+	</hgroup>
+</header>
+<div class="modal fade" id="message"></div>
+
+<div class="row">
+    <div class="col-lg-2"></div>
+    <div id="test" class="col-lg-8">
+    	<h3>You can now answer the tests right here</h3>
+      	<p>Click "Start Test" to take the test right now, and don't forget to click "Mark" to see how you fared</p>
+    </div>
+    <div class="col-lg-2"></div>
+</div>
